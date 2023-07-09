@@ -22,25 +22,29 @@ body {
 
 .sidebar {
   background: #1e2939;
-  width: 370px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  width: 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .photo {
-  width: 370px;
+  width: 300px;
+  margin: 10px,10px,10px,10px;
+  border-radius: 50%;
 }
 
 .about-me-container {
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .contacts-container {
   margin-top: 60px;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-right: 40px;
 }
 
@@ -48,7 +52,7 @@ body {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
-  color: #fff;
+  color: grey;
   margin-bottom: 20px;
 }
 
@@ -56,7 +60,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
-  color: #a9aeb8;
+  color: white;
 }
 
 .contacts-link-type {
@@ -72,31 +76,32 @@ body {
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 20px;
-  color: #fff;
+  color: grey;
 }
 
 .languages-container {
   margin-top: 55px;
-  margin-left: 40px;
+  margin-left: 20px;
   margin-right: 40px;
 }
 
 .languages-item {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 24px;
   margin-left: 15px;
-  color: #ff6b08;
+  color: white;
 }
 
 .languages-text {
-  color: #d8dadd;
+  color: white;
 }
 
 .education-container {
+  text-align: left;
   margin-top: 55px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .education-title {
@@ -104,56 +109,73 @@ body {
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 20px;
-  color: #fff;
+  color: grey;
 }
 
 .education-item {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 24px;
-  color: #dedfe2;
+  color: white;
   margin-left: 15px;
-  color: #ff6b08;
 }
 
+.courses-text {
+  font-weight: 700;
+}
 .education-text {
-  color: #d8dadd;
+  color: white;
+  font-weight: 700;
 }
-
 .education-time {
-  color: #a8a8a8;
-  font-size: 12px;
-  font-weight: 400;
+  color: grey;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: italic;
   line-height: 24px;
   margin-bottom: 14px;
 }
 
 .profession {
-  font-size: 30px;
-  font-weight: 900;
-  line-height: 24px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 60px;
   margin-bottom: 23px;
+  color: white;
+  background-color: black;
 }
 
 .name {
   font-size: 60px;
-  font-weight: 700;
-  line-height: 89px;
+  font-weight: 800;
+  line-height: 90px;
+  text-align: center;
 }
 
 .info-container {
-  margin-bottom: 85px;
+  margin-bottom: 25px;
+
 }
 
 .about-me-title {
-  font-size: 22px;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about-me-subtitle {
+  font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .résumé-container {
-  margin-bottom: 55px;
+  text-align: justify;
+  margin-bottom: 40px;
 }
 
 .résumé-text {
@@ -172,6 +194,7 @@ body {
   color: #a9aeb8;
   font-size: 12px;
   font-weight: 400;
+  font-style: italic;
   line-height: 24px;
   margin-bottom: 14px;
 }
@@ -185,11 +208,13 @@ body {
   font-weight: 400;
   line-height: 24px;
   margin-left: 15px;
-  color: #ff6b08;
+  color: black;
 }
 
 .skills-text {
   color: #0e0e0e;
+  text-align: justify;
+  text-align: justify;
 }
 
 .courses-title {
@@ -200,9 +225,29 @@ body {
 }
 
 .courses-time {
-  color: #a8a8a8;
-  font-size: 12px;
-  font-weight: 400;
+  color: grey;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.skills-title {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+  margin-top: 10px;
+}
+.experience-time {
+  color: grey;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: italic;
   line-height: 24px;
   margin-bottom: 14px;
 }
